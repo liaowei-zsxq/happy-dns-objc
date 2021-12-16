@@ -58,7 +58,7 @@
 		3159B80526B1051200380B4F /* DohResolverTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159B80326B1051200380B4F /* DohResolverTest.m */; };
 		3159B80626B1051200380B4F /* DohResolverTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159B80326B1051200380B4F /* DohResolverTest.m */; };
 		3159B81626B10CBC00380B4F /* QNDnsResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 3159B81426B10CBC00380B4F /* QNDnsResolver.h */; };
-		3159B81726B10CBC00380B4F /* QNDnsResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 3159B81426B10CBC00380B4F /* QNDnsResolver.h */; };
+		3159B81726B10CBC00380B4F /* QNDnsResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 3159B81426B10CBC00380B4F /* QNDnsResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3159B81826B10CBC00380B4F /* QNDnsResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159B81526B10CBC00380B4F /* QNDnsResolver.m */; };
 		3159B81926B10CBC00380B4F /* QNDnsResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159B81526B10CBC00380B4F /* QNDnsResolver.m */; };
 		3159B81A26B10CBC00380B4F /* QNDnsResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159B81526B10CBC00380B4F /* QNDnsResolver.m */; };
@@ -561,13 +561,13 @@
 				B0E79DA32105DBB1000F6903 /* QNResolver.h in Headers */,
 				3159B77426B00B6000380B4F /* QNDnsError.h in Headers */,
 				B0E79DA22105DBA3000F6903 /* QNRecord.h in Headers */,
+				3159B81726B10CBC00380B4F /* QNDnsResolver.h in Headers */,
 				B0E79DA12105DB9D000F6903 /* QNDomain.h in Headers */,
 				3159B82A26B1115000380B4F /* QNDnsUdpResolver.h in Headers */,
 				B0E79DA02105DB98000F6903 /* QNIP.h in Headers */,
 				3159B77026B00B6000380B4F /* QNDnsDefine.h in Headers */,
 				3159B87226B141BD00380B4F /* QNAsyncUdpSocket.h in Headers */,
 				3159B78726B00B6000380B4F /* QNDnsMessage.h in Headers */,
-				3159B81726B10CBC00380B4F /* QNDnsResolver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
