@@ -95,7 +95,6 @@
 		B0E79D992105DB13000F6903 /* QNHijackingDetectWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5AC8E01B575E2800728D30 /* QNHijackingDetectWrapper.m */; };
 		B0E79D9A2105DB13000F6903 /* QNTxtResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2B76F41C3C1D5300643678 /* QNTxtResolver.m */; };
 		B0E79D9C2105DB13000F6903 /* QNDnspodEnterprise.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC8AAF1B6BD77000EC938D /* QNDnspodEnterprise.m */; };
-		B0E79D9F2105DB2E000F6903 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E79D9E2105DB2E000F6903 /* libresolv.9.tbd */; };
 		B0E79DA02105DB98000F6903 /* QNIP.h in Headers */ = {isa = PBXBuildFile; fileRef = DFDD2A731CF58887006ECFCE /* QNIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0E79DA12105DB9D000F6903 /* QNDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = DF801F8A1B39743200866FDE /* QNDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0E79DA22105DBA3000F6903 /* QNRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = DF801F621B396D5100866FDE /* QNRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -106,6 +105,7 @@
 		B0E79DA82105DBD3000F6903 /* QNResolverDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DF801F851B396F5500866FDE /* QNResolverDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0E79DA92105DBD9000F6903 /* QNDnspodEnterprise.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFC8AAE1B6BD77000EC938D /* QNDnspodEnterprise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0E79DAA2105DBE0000F6903 /* QNHijackingDetectWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5AC8DF1B575E2800728D30 /* QNHijackingDetectWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAACDB6A276B152D00CF6CCB /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BAACDB69276B152D00CF6CCB /* libresolv.tbd */; };
 		DF0A03181B3B999D00E3778C /* libHappyDNS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF801F951B3A4F4D00866FDE /* libHappyDNS.a */; };
 		DF0A03201B3BABBD00E3778C /* QNNetworkInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0A031E1B3BABBD00E3778C /* QNNetworkInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF0A03211B3BABBD00E3778C /* QNNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0A031F1B3BABBD00E3778C /* QNNetworkInfo.m */; };
@@ -247,6 +247,7 @@
 		B0E79D842105DA0D000F6903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0E79D9E2105DB2E000F6903 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libresolv.9.tbd; sourceTree = DEVELOPER_DIR; };
 		B7A5E527D9CF80E564A69D85 /* libPods-HappyDNS_iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyDNS_iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAACDB69276B152D00CF6CCB /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		DF0A031E1B3BABBD00E3778C /* QNNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QNNetworkInfo.h; path = Common/QNNetworkInfo.h; sourceTree = "<group>"; };
 		DF0A031F1B3BABBD00E3778C /* QNNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QNNetworkInfo.m; path = Common/QNNetworkInfo.m; sourceTree = "<group>"; };
 		DF1552431B3A9536008D3E7C /* ResolverTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResolverTest.m; sourceTree = "<group>"; };
@@ -307,7 +308,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E79D9F2105DB2E000F6903 /* libresolv.9.tbd in Frameworks */,
+				BAACDB6A276B152D00CF6CCB /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +373,7 @@
 		3AA9FDBAFF7915B2F079FC24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BAACDB69276B152D00CF6CCB /* libresolv.tbd */,
 				B0E79D9E2105DB2E000F6903 /* libresolv.9.tbd */,
 				9387D718204EA24300B91879 /* XCTest.framework */,
 				9387D71B204EA28700B91879 /* XCTest.framework */,
