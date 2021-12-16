@@ -28,7 +28,7 @@
 		3159B76F26B00B6000380B4F /* QNDnsDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3159B76026B00B6000380B4F /* QNDnsDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3159B77026B00B6000380B4F /* QNDnsDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3159B76026B00B6000380B4F /* QNDnsDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3159B77326B00B6000380B4F /* QNDnsError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3159B76226B00B6000380B4F /* QNDnsError.h */; };
-		3159B77426B00B6000380B4F /* QNDnsError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3159B76226B00B6000380B4F /* QNDnsError.h */; };
+		3159B77426B00B6000380B4F /* QNDnsError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3159B76226B00B6000380B4F /* QNDnsError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3159B77526B00B6000380B4F /* QNDnsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159B76326B00B6000380B4F /* QNDnsMessage.m */; };
 		3159B77626B00B6000380B4F /* QNDnsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159B76326B00B6000380B4F /* QNDnsMessage.m */; };
 		3159B77726B00B6000380B4F /* QNDnsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159B76326B00B6000380B4F /* QNDnsMessage.m */; };
@@ -547,7 +547,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				31A697D426CE3B8C00D84ABC /* QNLruCache.h in Headers */,
-				3159B77426B00B6000380B4F /* QNDnsError.h in Headers */,
 				B0E79D852105DA0D000F6903 /* HappyDNS.h in Headers */,
 				B0E79DAA2105DBE0000F6903 /* QNHijackingDetectWrapper.h in Headers */,
 				B0E79DA92105DBD9000F6903 /* QNDnspodEnterprise.h in Headers */,
@@ -560,6 +559,7 @@
 				B0E79DA52105DBBF000F6903 /* QNDnsManager.h in Headers */,
 				3159B76C26B00B6000380B4F /* QNDnsResponse.h in Headers */,
 				B0E79DA32105DBB1000F6903 /* QNResolver.h in Headers */,
+				3159B77426B00B6000380B4F /* QNDnsError.h in Headers */,
 				B0E79DA22105DBA3000F6903 /* QNRecord.h in Headers */,
 				B0E79DA12105DB9D000F6903 /* QNDomain.h in Headers */,
 				3159B82A26B1115000380B4F /* QNDnsUdpResolver.h in Headers */,
